@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Practice</title>
+  </head>
+  <body>
+    <header>
+      <h1>User login page</h1>
+      <hr />
+    </header>
+    <form action="myserver.php">
+      <label for="username">Username:</label>
+      <input type="text" id="username" value="Enter username" /><br /><br />
+      <label for="passw">Password:</label>
+      <input type="password" id="passw" value="" /><br /><br />
+      <input type="submit" value="press me when completed" />
+      <br /><br />
+      <hr />
+      <br />
+      Date: <input type="date" value="date" /> <br /><br />
+      <hr />
+      <br />
+      File: <input type="file" value="file" id="file" /> <br /><br />
+      <hr />
+      <p>Choose your gender</p>
+      genders: <br />
+      <label for="Male">Male</label>
+      <input type="radio" value="Male" name="gender" id="Male" /><br />
+      <label for="female">female</label>
+      <input type="radio" value="female" name="gender" id="female" /><br />
+      <label for="other">other</label>
+      <input type="radio" value="other" name="gender" id="other" />
+      <br />
+      <hr />
+      <p>Select your favourite fruit</p>
+      <label for="mango">Mango</label>
+      <input type="checkbox" value="mango" name="fruit" id="mango" /> <br />
+      <label for="banana">Banana</label>
+      <input type="checkbox" value="fruit" name="banana" id="banana" /> <br />
+      <label for="apple">Apple</label>
+      <input type="checkbox" value="fruit" name="apple" id="apple" />
+      <br />
+      <hr />
+    </form>
+  </body>
+</html>
