@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(221, 221, 144);
+    margin: 0px;
+    padding: 0px;
+}
+.div_1{
+    background-color: rgb(16, 30, 31);
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    padding: 15px;
+}
+.div_11{
+    background-color: rgb(90, 76, 59);
+    height: 50px;
+    width: 200px;
+}

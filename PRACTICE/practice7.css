@@ -1,0 +1,32 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    background-color: darkslategray;
+    height: 100px;
+    text-align: center;
+    border: 4px solid gray;
+    border-radius: 10px;
+    margin: 15px;
+}
+.h_3{
+    background-color:  darkslategray;
+    color: white;
+
+}
+#div2{
+    height: 300px;
+    width: auto;
+    background-color: darkslategray ;
+    margin: 15px;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
+#h_2{
+    background-color:darkslategray  ;
+    color: white;
+    text-align: center;
+    
+}

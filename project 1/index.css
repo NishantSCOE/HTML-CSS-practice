@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background-color: beige;
+    background-color: rgb(37, 80, 82);
+    margin: 5px;
+    padding:15px;
+    text-align: center;
+    color: white;
+}
+#header{
+    background-color: rgb(37, 80, 82);
+    margin: 5px;
+    padding:15px;
+    text-align: center;
+    color: white;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(6, 110, 76);
+    border: 4px ;
+    border-radius: 10px;
+
+}

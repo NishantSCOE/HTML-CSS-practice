@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box model</title>
+    <style>
+      .common {
+        height: 100px;
+        width: 100px;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+      }
+      #first {
+        background-color: aquamarine;
+        border: 4px solid hotpink;
+        box-sizing: content-box;
+        border-radius: 15px;
+      }
+      #second {
+        background-color: hotpink;
+        border: 4px solid aquamarine;
+        box-sizing: content-box;
+        border-radius: 15px;
+      }
+      #button {
+        color: red;
+        background-color: antiquewhite;
+        border: 3px solid red;
+        border-radius: 12px;
+        padding: 10px 15px 10px 15px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first" class="common">NISHANT</div>
+    <div id="second" class="common">DESHMUKH</div>
+    <div>
+      <button id="button">Press me</button>
+    </div>
+  </body>
+</html>
