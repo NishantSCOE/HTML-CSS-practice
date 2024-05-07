@@ -1,3 +1,11 @@
 {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "powermode.enabled": true,
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.suggest.showStatusBar": true,
+    "json.schemas": []
 }
